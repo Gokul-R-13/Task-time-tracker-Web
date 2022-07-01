@@ -1,0 +1,27 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/clock.svg">
+    <title>Task time tracker</title>
+</head>
+<body>
+	<div class="clock"></div>
+	<br>
+		<h1>Task Time Tracker </h1>
+		<h2 id="timer">00:00:00</h2>
+		<input type="text" name="action" id="task-input" placeholder="Write your task...">
+		<div class="buttons">   
+			<button class="btn start">Start task</button>
+			<button class="btn stop">Finish task</button>
+			<button class="btn pause">Pause task</button>        
+			<button class="btn clear">Clear all tasks</button>
+		</div>
+		<h3>Finished tasks for the day</h3>
+		<ol id="list"> </ol>
+		<script src="script.js"></script>
+
+</body>
+</html>
