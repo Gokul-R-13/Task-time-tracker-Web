@@ -1,4 +1,4 @@
-# Task-time-tracker-Web
+# Task-time-tracker-Web ⏰
 
 
 The Task Time Tracker (TTT) is used to calculate the time spent for each task we done.
